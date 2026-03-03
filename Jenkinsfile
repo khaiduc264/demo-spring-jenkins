@@ -2,6 +2,8 @@ pipeline {
   agent any
 
   environment {
+    JAVA_HOME = "/usr/lib/jvm/java-21-openjdk-amd64"
+    PATH = "${JAVA_HOME}/bin:${env.PATH}"
     REGISTRY = "localhost:5000"
     IMAGE    = "demo-spring"
     TAG      = "${env.BUILD_NUMBER}"
