@@ -1,0 +1,19 @@
+# Maven / Java
+target/
+*.class
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Demo files not needed for SpringBoot repo
+demo.zip
+Dockerfile
+index.html
+compose.yaml
